@@ -6,18 +6,22 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Robot robot = new Robot();
+	Robot robot = new Robot();
 		
-        System.out.println("Bienvenido al restaurante McHamburgesas...");
-        System.out.println("Nuestro McRobot lo estará atendiendo");
-        System.out.println("Actualmenete " + robot.getEstadoActual());
-        System.out.println("Por favor elige la opción que deseas ejecutar: ");
+        System.out.println("Bienvenido al restaurante McBurgesas...");
+        System.out.println("Estado: " + robot.getEstadoActual());
+        System.out.println("A continuacion escoje una opcion: ");
+		
+		
+		
         Scanner sc = new Scanner(System.in);
+		
+		
         int opcion;
 
         do {
             System.out.println(
-            				"1 .- **ACTIVADO** \n" +
+            		    "1 .- **ACTIVADO** \n" +
                             "2 .- **CAMINANDO** \n" +
                             "3 .- **LEYENDO MENU* \n" +
                             "4 .- **TOMANDO ORDEN** \n" +
