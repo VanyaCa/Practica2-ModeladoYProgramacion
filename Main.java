@@ -8,7 +8,7 @@ public class Main {
 		
 	Robot robot = new Robot();
 		
-        System.out.println("Bienvenido al restaurante McBurgesas...");
+        System.out.println("Bienvenido al restaurante McBurgesas");
         System.out.println("Estado: " + robot.getEstadoActual());
         System.out.println("A continuacion escoje una opcion: ");
 		
